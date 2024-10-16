@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Obligatorio DIW - SafeFlight! - Agencia de viajes"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>SafeFlight!</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img src="/imgs/Logo PNG.png" alt="Logo - SafeFlight!" id="logo" />
+        </div>
+        <div id="links">
+          <a class="nav-pos" href="#sectionBuscador">Buscador</a>
+          <a class="nav-pos" href="#sectionPaquetes">Paquetes</a>
+          <a class="nav-pos" href="#sectionAcercaDe">Acerca de</a>
+          <a class="nav-pos" href="#sectionDestinos">Destinos</a>
+          <a class="nav-pos" href="#sectionHorarios">Horarios</a>
+        </div>
+      </nav>
+    </header>
+    <section id="sectionBuscador">
+      <div id="sloganForm">
+        <h1>SafeFlight!</h1>
+        <h2>Viaja a donde te lleve tu imaginacion</h2>
+      </div>
+      <div id="form-container">
+        <form id="column-container">
+          <div class="formulario">
+            <label for="origenViaje">Origen</label>
+            <input type="text" id="origenViaje" class="input-boxes" />
+            <label for="inicioViaje">Inicio del viaje</label>
+            <input type="date" id="inicioViaje" class="input-boxes" />
+            <label for="cantidadPasajeros">Cantidad de pasajeros</label>
+            <input type="text" id="cantidadPasajeros" class="input-boxes" />
+          </div>
+          <div class="formulario">
+            <label for="destinoViaje">Destino</label>
+            <input type="text" id="destinoViaje" class="input-boxes" />
+            <label for="finViaje">Fin del viaje</label>
+            <input type="date" id="finViaje" class="input-boxes" />
+            <p>Busqueda con hotel</p>
+            <div id="input-checkbox">
+              <label for="siCheckbox">Si</label>
+              <input
+                type="checkbox"
+                id="siCheckbox"
+                class="checkboxes"
+              />
+              <label for="noCheckbox">No</label>
+              <input
+                type="checkbox"
+                id="noCheckbox"
+                class="checkboxes"
+              />
+            </div>
+          </div>
+        </form>
+        <div id="btnContainer">
+          <div>
+            <input type="button" value="Buscar mejores precios" id="btnSend" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sectionPaquetes">
+      <div id="subtitle-paquetes">
+        <h2>PAQUETES POPULARES</h2>
+        <p>Precios en base doble</p>
+      </div>
+      <div id="listArticles">
+        <article class="card-box">
+          <div class="card-box-content">
+            <h3>Caribe</h3>
+            <p><strong>1050</strong> usd</p>
+            <ul class="listado">
+              <li class="listado-item">15 dias</li>
+              <li class="listado-item">Lorem ipsum</li>
+              <li class="listado-item">Lorem ipsum</li>
+              <li class="listado-item">Lorem ipsum</li>
+              <li class="listado-item">Lorem ipsum</li>
+            </ul>
+            <input type="button" value="CONOCER MAS" class="btnConocerMas" />
+          </div>
+        </article>
+        <article class="card-box">
+          <div class="card-box-content">
+            <h3>Europa central</h3>
+            <p><strong>2500</strong> usd</p>
+            <ul class="listado">
+              <li class="listado-item">15 dias</li>
+              <li class="listado-item">Lorem ipsum</li>
+              <li class="listado-item">Lorem ipsum</li>
+              <li class="listado-item">Lorem ipsum</li>
+              <li class="listado-item">Lorem ipsum</li>
+            </ul>
+            <input type="button" value="CONOCER MAS" class="btnConocerMas" />
+          </div>
+        </article>
+        <article class="card-box">
+          <div class="card-box-content">
+            <h3>Asia y Africa</h3>
+            <p><strong>3500</strong> usd</p>
+            <ul class="listado">
+              <li class="listado-item">15 dias</li>
+              <li class="listado-item">Lorem ipsum</li>
+              <li class="listado-item">Lorem ipsum</li>
+              <li class="listado-item">Lorem ipsum</li>
+              <li class="listado-item">Lorem ipsum</li>
+            </ul>
+            <input type="button" value="CONOCER MAS" class="btnConocerMas" />
+          </div>
+        </article>
+      </div>
+    </section>
+    <section id="sectionAcercaDe">
+      <div id="acercaDeContainer">
+        <figure id="img-crew">
+          <img src="/imgs/Aviation-Crew.jpg" alt="Crew de SafeFlight!" />
+        </figure>
+        <div id="safeFlightAbout">
+          <h2>TU EMPRESA DE CONFIANZA</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, vitae
+            inventore veritatis obcaecati libero dicta. Tempore corporis
+            incidunt doloribus molestias inventore officiis magnam expedita a
+            qui, quisquam laboriosam nulla facere! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Provident ea architecto, soluta,
+            dolore tenetur minima et similique quis suscipit officiis, corporis
+            consectetur! Voluptatum culpa distinctio ratione praesentium minima
+            quos ad.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="sectionDestinos">
+      <div>
+        <figure id="grid-layout">
+          <div class="destinos-layout d-L1">
+            <img src="/imgs/Alps, Italy.jpeg" id="italiaPhoto" alt="">
+          </div>
+          <div class="destinos-layout d-L2">
+            <img src="/imgs/Cancun in Riviera Maya, Mexico.jpeg" alt="">
+          </div>
+          <div class="destinos-layout d-L3">
+            <img src="/imgs/Kilimanjaro, Tanzania.jpeg" alt="">
+          </div>
+          <div class="destinos-layout d-L4">
+            <img src="/imgs/London, UK.jpeg" alt="">
+          </div>
+          <div class="destinos-layout d-L5">
+            <img src="/imgs/Pryramids, Egypt.jpeg" alt="">
+          </div>
+          <div class="destinos-layout d-L6">
+            <img src="/imgs/Saona island, Dominican Republic.jpeg" alt="">
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section id="sectionHorarios">
+        <h2>
+            Horarios
+        </h2>
+        <div id="tablaHorariosContainer">
+            <table>
+                <thead>
+                  <th>Sede</th>
+                  <th>L a V</th>
+                  <th>Sabados</th>
+                  <th>Domingos</th>
+                </thead>
+                <tr>
+                  <td class="whiteRow">Prado</td>
+                  <td class="whiteRow">10:00-18:00</td>
+                  <td class="whiteRow">10:00-13:00</td>
+                  <td class="whiteRow">Online</td>
+                </tr>
+                <tr>
+                  <td class="grayRow">Centro</td>
+                  <td class="grayRow">10:00-18:00</td>
+                  <td class="grayRow">10:00-13:00</td>
+                  <td class="grayRow">Online</td>
+                </tr>
+                <tr>
+                  <td class="whiteRow">Pocitos</td>
+                  <td class="whiteRow">10:00-18:00</td>
+                  <td class="whiteRow">10:00-13:00</td>
+                  <td class="whiteRow">Cerrado</td>
+                </tr>
+                <tr>
+                  <td class="grayRow">Carrasco</td>
+                  <td class="grayRow">10:00-18:00</td>
+                  <td class="grayRow">Cerrado</td>
+                  <td class="grayRow">Cerrado</td>
+                </tr>
+                <tr>
+                  <td class="whiteRow">El Pinar</td>
+                  <td class="whiteRow">12:00-19:00</td>
+                  <td class="whiteRow">Cerrado</td>
+                  <td class="whiteRow">Cerrado</td>
+                </tr>
+                <tr>
+                  <td class="grayRow">Maldonado</td>
+                  <td class="grayRow">11:00-19:00</td>
+                  <td class="grayRow">Cerrado</td>
+                  <td class="grayRow">Cerrado</td>
+                </tr>
+              </table>
+        </div>
+    </section>
+    <section id="section-nav-bottom">
+        <div id="nav-bottom-container">
+            <article >
+                <div class="nav-bottom-articles">
+                    <img src="/imgs/Money.svg" alt="Imagen vectorial de monedas">
+                    <h2>Cotiza tu viaje</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quos adipisci, dignissimos aliquam quae impedit iure perferendis pariatur mollitia.</p>
+                    <a href="#sectionBuscador" class="btnConocerMas">Comenzar busqueda</a>
+                </div>
+            </article>
+            <article >
+                <div class="nav-bottom-articles">
+                    <img src="/imgs/Schedule.svg" alt="Imagen vectorial de un calendario">
+                    <h2>Horarios</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quos adipisci, dignissimos aliquam quae impedit iure perferendis pariatur mollitia.</p>
+                    <a href="#sectionHorarios" class="btnConocerMas">Consultar horarios</a>
+                </div>
+            </article>
+            <article >
+                <div class="nav-bottom-articles">
+                    <img src="/imgs/Packages.svg" alt="Imagen vectorial de el mundo">
+                    <h2>Paquete</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quos adipisci, dignissimos aliquam quae impedit iure perferendis pariatur mollitia.</p>
+                    <a href="#sectionPaquetes" class="btnConocerMas">Paquetes populares</a >
+                </div>
+            </article>
+        </div>
+    </section>
+    <footer>
+      <nav>
+      <div>
+        <img src="/imgs/Logo PNG.png" alt="Logo - SafeFlight!" id="logo" />
+      </div>
+      <div id="links">
+        <a class="nav-pos-footer" href="https://www.facebook.com" target="_blank"><img src="/imgs/Facebook Logo.png" alt=""></a>
+        <a class="nav-pos-footer" href="https://www.youtube.com" target="_blank"><img src="/imgs/youtube-logo-png-46016.png" alt=""></a>
+        <a class="nav-pos-footer" href="https://www.instagram.com" target="_blank"><img src="/imgs/Instagram Logo.png" alt=""></a>
+      </div>
+    </nav>
+    </footer>
+  </body>
+</html>
